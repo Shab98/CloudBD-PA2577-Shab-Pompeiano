@@ -9,7 +9,7 @@ if ENV['ENV'] != 'local'
     override.nfs.functional = false
     override.vm.allowed_synced_folder_types = :rsync
 
-    provider.token = '46b9d4f9234bafcf6f35b0fa46ae0b6e2c7b2b087e2b0317141ba91ed2d28831'  # Remember to remove before committing! Use an environment variable instead.
+    provider.token = ''  # Remember to remove before committing! Use an environment variable instead.
     provider.image = 'ubuntu-18-04-x64'
     provider.region = 'nyc1'
     provider.size = '512mb'
