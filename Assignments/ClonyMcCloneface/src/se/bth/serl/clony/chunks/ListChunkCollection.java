@@ -62,7 +62,6 @@ public class ListChunkCollection extends BaseChunkCollection {
 					
 					if(a.getChunkContent().equals(b.getChunkContent())) {
 						int expansion = expand(chunks.subList(i + 1, j), chunks.subList(j + 1, chunks.size()));
-						System.out.println("Expansion = " + expansion);
 						if(listOfInstances.size() == 0) { //Add the first instance only once
 							LinkedList<Chunk> instance = new LinkedList<>();
 							int start = i;
@@ -86,7 +85,6 @@ public class ListChunkCollection extends BaseChunkCollection {
 				
 				if(listOfInstances.size() > 0){
 					clones.add(new Clone(listOfInstances));
-					System.out.println("Addding clone");
 				}
 							
 				i = i + maxExpansion;

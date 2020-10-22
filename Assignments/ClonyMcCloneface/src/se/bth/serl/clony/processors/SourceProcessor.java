@@ -70,7 +70,11 @@ public class SourceProcessor {
 				
 				// TODO iterate over the sourceLines, create chunks and add them to the chunkCollection
 				for (int i=0; i<numLines-chunkSize+1; i++) {
-					Chunk c = new Chunk(p.getFileName().toString(),sourceLines.get(i).getContent(), i, i+chunkSize);
+					String chunkContent = "";
+					for (int j=i; j<chunkSize+i; j++) {
+						chunkContent = chunkContent + sourceLines.get(j).getContent() + "\n";
+					}
+					Chunk c = new Chunk(p.getFileName().toString(),chunkContent, sourceLines.get(i).getLineNumber(), sourceLines.get(i+chunkSize-1).getLineNumber());
 					chunkCollection.addChunk(c);
 				}
 				

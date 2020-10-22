@@ -46,7 +46,6 @@ public abstract class BaseChunkCollection {
 	//TODO implement expansion. HINT: think recursively
 	protected int expand(List<Chunk> a, List<Chunk> b) {
 		if (a.get(0).getChunkContent().equals(b.get(0).getChunkContent())) {
-			System.out.println("SAME");
 			return expand(a.subList(1, a.size()), b.subList(1, b.size())) +1;
 		} 
 		return 0;

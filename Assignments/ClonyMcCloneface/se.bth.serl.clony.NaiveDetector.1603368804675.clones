@@ -1,0 +1,81 @@
+Root folder: /home/vagrant/QualitasCorpus/QualitasCorpus-20130901r/Systems/ant
+Total files/lines scanned: 1196/128219
+Clones of size 30 or larger found: 19
+Largest clone: 213
+
+###Clone size: 213###
+File: FTP.java | 185-397
+File: FTPTaskMirrorImpl.java | 86-298
+
+###Clone size: 167###
+File: FTP.java | 505-671
+File: FTPTaskMirrorImpl.java | 406-572
+
+###Clone size: 158###
+File: FTP.java | 753-910
+File: FTPTaskMirrorImpl.java | 655-812
+
+###Clone size: 157###
+File: AbstractSelectorContainer.java | 167-323
+File: BaseSelectorContainer.java | 173-329
+
+###Clone size: 134###
+File: FTP.java | 2554-2687
+File: FTPTask.java | 831-963
+
+###Clone size: 113###
+File: CCMkattr.java | 180-292
+File: CCMklabel.java | 169-282
+
+###Clone size: 94###
+File: CBZip2OutputStream.java | 229-322
+File: CBZip2OutputStream.java | 386-477
+
+###Clone size: 87###
+File: ExecTask.java | 176-262
+File: Java.java | 480-568
+
+###Clone size: 77###
+File: FTP.java | 974-1050
+File: FTPTaskMirrorImpl.java | 880-956
+
+###Clone size: 64###
+File: FTP.java | 1511-1574
+File: FTPTask.java | 546-609
+
+###Clone size: 53###
+File: CCMkattr.java | 124-176
+File: CCMklabel.java | 121-169
+
+###Clone size: 53###
+File: FTP.java | 450-502
+File: FTPTaskMirrorImpl.java | 351-403
+
+###Clone size: 52###
+File: FTP.java | 1878-1929
+File: FTPTaskMirrorImpl.java | 1267-1318
+
+###Clone size: 48###
+File: FTP.java | 1654-1701
+File: FTPTask.java | 715-762
+
+###Clone size: 45###
+File: CBZip2InputStream.java | 603-647
+File: CBZip2InputStream.java | 683-727
+
+###Clone size: 44###
+File: FilterSetTest.java | 178-221
+File: TranslateTest.java | 53-95
+
+###Clone size: 42###
+File: FTP.java | 1932-1973
+File: FTPTaskMirrorImpl.java | 1321-1362
+
+###Clone size: 37###
+File: AntTest.java | 318-354
+File: SubAntTest.java | 105-141
+
+###Clone size: 35###
+File: Jdk14RegexpMatcherTest.java | 36-70
+File: Jdk14RegexpRegexpTest.java | 36-71
+

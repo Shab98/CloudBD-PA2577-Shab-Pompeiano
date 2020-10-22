@@ -1,0 +1,9 @@
+Root folder: /home/vagrant/QualitasCorpus/QualitasCorpus-20130901r/Systems/axion
+Total files/lines scanned: 237/23855
+Clones of size 30 or larger found: 1
+Largest clone: 43
+
+###Clone size: 43###
+File: ParseException.java | 148-190
+File: TokenMgrError.java | 41-83
+
