@@ -1,0 +1,17 @@
+Root folder: /home/shab/Downloads/Qualitas/QualitasCorpus/QualitasCorpus-20130901r/Systems/antlr
+Total files/lines scanned: 381/34486
+Clones of size 30 or larger found: 3
+Largest clone: 44
+
+###Clone size: 44###
+File: /home/shab/Downloads/Qualitas/QualitasCorpus/QualitasCorpus-20130901r/Systems/antlr/antlr-4.0/src/antlr4-4.0/tool/test/org/antlr/v4/test/TestCommonTokenStream.java | 214-257
+File: /home/shab/Downloads/Qualitas/QualitasCorpus/QualitasCorpus-20130901r/Systems/antlr/antlr-4.0/src/antlr4-4.0/tool/test/org/antlr/v4/test/TestCommonTokenStream.java | 262-305
+
+###Clone size: 36###
+File: /home/shab/Downloads/Qualitas/QualitasCorpus/QualitasCorpus-20130901r/Systems/antlr/antlr-4.0/src/antlr4-4.0/tool/test/org/antlr/v4/test/TestLexerExec.java | 202-237
+File: /home/shab/Downloads/Qualitas/QualitasCorpus/QualitasCorpus-20130901r/Systems/antlr/antlr-4.0/src/antlr4-4.0/tool/test/org/antlr/v4/test/TestLexerExec.java | 240-275
+
+###Clone size: 33###
+File: /home/shab/Downloads/Qualitas/QualitasCorpus/QualitasCorpus-20130901r/Systems/antlr/antlr-4.0/src/antlr4-4.0/tool/test/org/antlr/v4/test/TestCommonTokenStream.java | 66-98
+File: /home/shab/Downloads/Qualitas/QualitasCorpus/QualitasCorpus-20130901r/Systems/antlr/antlr-4.0/src/antlr4-4.0/tool/test/org/antlr/v4/test/TestCommonTokenStream.java | 137-169
+
