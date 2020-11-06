@@ -15,9 +15,8 @@ import se.bth.serl.clony.chunks.Clone;
 public class ExpanderReducer extends Reducer<Clone, NullWritable, Clone, NullWritable> {
 
 	//TODO implement the reduce() method
-	
-	
-	public void reduce(Clone clone, NullWritable n, Context context) throws IOException, InterruptedException {
-		context.write(clone, n);
+	@Override
+	public void reduce(Clone key, Iterable<NullWritable> value, Context context) throws IOException, InterruptedException {        
+		   context.write(key, NullWritable.get());
 	}
 }
